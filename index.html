@@ -1,0 +1,993 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>$100 in 1850 → 2019 | Inflation Calculator</title>
+
+</head>
+
+
+
+<body>
+<div class="navbar navbar-default navbar-static-top">
+<div class="container">
+
+</div>
+</div>
+</div>
+<div class="container">
+<div class="main-info">
+<div>
+<h1 id="h1" style="text-align: center; line-height: 1.5">
+$100 in 1850 &rarr; $2,933.10 in 2019
+</h1>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="well">
+<div>
+<h2 style="text-align: center; margin-bottom: 24px">
+Inflation Calculator
+</h2>
+<h3 id ="warningbox" style="color: red ; text-align: center; margin-bottom: 24px">
+  </h3>
+
+
+
+<form id="form-calculate" class="form-horizontal" style="text-align: center; margin-bottom: 24px">
+<div class="form-group">
+<label class="col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label">Amount</label>
+<div class="input-group col-sm-6 col-xs-offset-1 col-sm-offset-0">
+<span class="input-group-addon">
+$
+</span>
+<input id="amount" class="form-control" value=100 type="number" step="any" min="0"><wbr />
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label">Start year</label>
+<div class="input-group col-sm-6 col-xs-offset-1 col-sm-offset-0">
+<input id="y1" class="form-control" value=1850 title=1850 type="number">
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label">End year</label>
+<div class="input-group col-sm-6 col-xs-offset-1 col-sm-offset-0">
+<input id="y2" class="form-control" value=2019 title=2019 type="number">
+</div>
+</div>
+<div class="form-group">
+<div class="input-group col-sm-offset-4 col-xs-offset-1">
+  <!--<button onclick="myFunction()" id="btn-calculate" class="btn btn-success btn-lg" title="Calculate">-->
+    <button type = "button" onclick="myFunction()">
+ Calculate
+</button>
+</div>
+</div>
+
+<table id="myTable" class="regular-data table-striped" style="margin: 0 auto">
+  <tr>
+    <th>Year</th>
+    <th>Dollar Value</th>
+    <th>Interest Rate</th>
+  </tr>
+  <tr>
+    <td>1850</th>
+    <td>100</th>
+    <td>1.30%</th>
+  </tr>
+  <tr>
+    <td>1851</td>
+    <td>101.30</td>
+    <td>-1.28%</td>
+  </tr>
+  <tr>
+    <td>1852</td>
+    <td>100.00</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1853</td>
+    <td>100.00</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1854</td>
+    <td>100.00</td>
+    <td>9.09%</td>
+  </tr>
+  <tr>
+    <td>1855</td>
+    <td>109.09</td>
+    <td>3.57%</td>
+  </tr>
+  <tr>
+    <td>1856</td>
+    <td>112.98</td>
+    <td>-2.30%</td>
+  </tr>
+  <tr>
+    <td>1857</td>
+    <td>110.38</td>
+    <td>2.35%</td>
+  </tr>
+  <tr>
+    <td>1858</td>
+    <td>112.97</td>
+    <td>-5.75%</td>
+  </tr>
+  <tr>
+    <td>1859</td>
+    <td>106.47</td>
+    <td>1.22%</td>
+  </tr>
+  <tr>
+    <td>1860</td>
+    <td>107.77</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1861</td>
+    <td>107.77</td>
+    <td>6.02%</td>
+  </tr>
+  <tr>
+    <td>1862</td>
+    <td>114.26</td>
+    <td>14.77%</td>
+  </tr>
+  <tr>
+    <td>1863</td>
+    <td>131.14</td>
+    <td>24.75%</td>
+  </tr>
+  <tr>
+    <td>1864</td>
+    <td>163.60</td>
+    <td>24.60%</td>
+  </tr>
+  <tr>
+    <td>1865</td>
+    <td>203.85</td>
+    <td>3.82%</td>
+  </tr>
+  <tr>
+    <td>1866</td>
+    <td>211.64</td>
+    <td>-2.45%</td>
+  </tr>
+  <tr>
+    <td>1867</td>
+    <td>206.45</td>
+    <td>-6.92%</td>
+  </tr>
+  <tr>
+    <td>1868</td>
+    <td>192.16</td>
+    <td>-4.05%</td>
+  </tr>
+  <tr>
+    <td>1869</td>
+    <td>184.38</td>
+    <td>-4.23%</td>
+  </tr>
+  <tr>
+    <td>1870</td>
+    <td>176.58</td>
+    <td>-3.68%</td>
+  </tr>
+  <tr>
+    <td>1871</td>
+    <td>170.08</td>
+    <td>-6.87%</td>
+  </tr>
+  <tr>
+    <td>1872</td>
+    <td>158.40</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1873</td>
+    <td>158.40</td>
+    <td>-1.64%</td>
+  </tr>
+  <tr>
+    <td>1874</td>
+    <td>155.80</td>
+    <td>-5.00%</td>
+  </tr>
+  <tr>
+    <td>1875</td>
+    <td>148.01</td>
+    <td>-3.51%</td>
+  </tr>
+  <tr>
+    <td>1876</td>
+    <td>142.81</td>
+    <td>-2.73%</td>
+  </tr>
+  <tr>
+    <td>1877</td>
+    <td>138.91</td>
+    <td>-1.87%</td>
+  </tr>
+  <tr>
+    <td>1878</td>
+    <td>136.31</td>
+    <td>-4.76%</td>
+  </tr>
+  <tr>
+    <td>1879</td>
+    <td>129.82</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1880</td>
+    <td>129.82</td>
+    <td>2.00%</td>
+  </tr>
+  <tr>
+    <td>1881</td>
+    <td>132.42</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1882</td>
+    <td>132.42</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1883</td>
+    <td>132.42</td>
+    <td>-0.98%</td>
+  </tr>
+  <tr>
+    <td>1884</td>
+    <td>131.12</td>
+    <td>-2.97%</td>
+  </tr>
+  <tr>
+    <td>1885</td>
+    <td>127.23</td>
+    <td>-1.02%</td>
+  </tr>
+  <tr>
+    <td>1886</td>
+    <td>125.93</td>
+    <td>-3.09%</td>
+  </tr>
+  <tr>
+    <td>1887</td>
+    <td>122.04</td>
+    <td>1.06%</td>
+  </tr>
+  <tr>
+    <td>1888</td>
+    <td>123.33</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1889</td>
+    <td>123.33</td>
+    <td>-3.16%</td>
+  </tr>
+  <tr>
+    <td>1890</td>
+    <td>119.43</td>
+    <td>-1.09%</td>
+  </tr>
+  <tr>
+    <td>1891</td>
+    <td>118.13</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1892</td>
+    <td>118.13</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1893</td>
+    <td>118.13</td>
+    <td>-1.10%</td>
+  </tr>
+  <tr>
+    <td>1894</td>
+    <td>116.83</td>
+    <td>-4.44%</td>
+  </tr>
+  <tr>
+    <td>1895</td>
+    <td>111.64</td>
+    <td>-2.33%</td>
+  </tr>
+  <tr>
+    <td>1896</td>
+    <td>109.04</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1897</td>
+    <td>109.04</td>
+    <td>-1.19%</td>
+  </tr>
+  <tr>
+    <td>1898</td>
+    <td>107.74</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1899</td>
+    <td>107.74</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1900</td>
+    <td>107.74</td>
+    <td>1.20%</td>
+  </tr>
+  <tr>
+    <td>1901</td>
+    <td>109.03</td>
+    <td>1.19%</td>
+  </tr>
+  <tr>
+    <td>1902</td>
+    <td>110.33</td>
+    <td>1.18%</td>
+  </tr>
+  <tr>
+    <td>1903</td>
+    <td>111.63</td>
+    <td>2.33%</td>
+  </tr>
+  <tr>
+    <td>1904</td>
+    <td>114.23</td>
+    <td>1.14%</td>
+  </tr>
+  <tr>
+    <td>1905</td>
+    <td>115.53</td>
+    <td>-1.12%</td>
+  </tr>
+  <tr>
+    <td>1906</td>
+    <td>114.24</td>
+    <td>2.27%</td>
+  </tr>
+  <tr>
+    <td>1907</td>
+    <td>116.83</td>
+    <td>4.44%</td>
+  </tr>
+  <tr>
+    <td>1908</td>
+    <td>122.02</td>
+    <td>-2.13%</td>
+  </tr>
+  <tr>
+    <td>1909</td>
+    <td>119.42</td>
+    <td>-1.09%</td>
+  </tr>
+  <tr>
+    <td>1910</td>
+    <td>118.12</td>
+    <td>4.40%</td>
+  </tr>
+  <tr>
+    <td>1911</td>
+    <td>123.32</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1912</td>
+    <td>123.32</td>
+    <td>2.11%</td>
+  </tr>
+  <tr>
+    <td>1913</td>
+    <td>125.92</td>
+    <td>2.06%</td>
+  </tr>
+  <tr>
+    <td>1914</td>
+    <td>128.51</td>
+    <td>1.01%</td>
+  </tr>
+  <tr>
+    <td>1915</td>
+    <td>129.81</td>
+    <td>1.00%</td>
+  </tr>
+  <tr>
+    <td>1916</td>
+    <td>131.11</td>
+    <td>7.92%</td>
+  </tr>
+  <tr>
+    <td>1917</td>
+    <td>141.49</td>
+    <td>17.43%</td>
+  </tr>
+  <tr>
+    <td>1918</td>
+    <td>166.15</td>
+    <td>17.97%</td>
+  </tr>
+  <tr>
+    <td>1919</td>
+    <td>196.01</td>
+    <td>14.57%</td>
+  </tr>
+  <tr>
+    <td>1920</td>
+    <td>224.57</td>
+    <td>15.61%</td>
+  </tr>
+  <tr>
+    <td>1921</td>
+    <td>259.63</td>
+    <td>-10.50%</td>
+  </tr>
+  <tr>
+    <td>1922</td>
+    <td>232.37</td>
+    <td>-6.15%</td>
+  </tr>
+  <tr>
+    <td>1923</td>
+    <td>218.08</td>
+    <td>1.79%</td>
+  </tr>
+  <tr>
+    <td>1924</td>
+    <td>221.98</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1925</td>
+    <td>221.98</td>
+    <td>2.34%</td>
+  </tr>
+  <tr>
+    <td>1926</td>
+    <td>227.17</td>
+    <td>1.14%</td>
+  </tr>
+  <tr>
+    <td>1927</td>
+    <td>229.76</td>
+    <td>-1.69%</td>
+  </tr>
+  <tr>
+    <td>1928</td>
+    <td>225.88</td>
+    <td>-1.72%</td>
+  </tr>
+  <tr>
+    <td>1929</td>
+    <td>221.99</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td>1930</td>
+    <td>221.99</td>
+    <td>-2.34%</td>
+  </tr>
+  <tr>
+    <td>1931</td>
+    <td>216.80</td>
+    <td>-8.98%</td>
+  </tr>
+  <tr>
+    <td>1932</td>
+    <td>197.33</td>
+    <td>-9.87%</td>
+  </tr>
+  <tr>
+    <td>1933</td>
+    <td>177.85</td>
+    <td>-5.11%</td>
+  </tr>
+  <tr>
+    <td>1934</td>
+    <td>168.76</td>
+    <td>3.08%</td>
+  </tr>
+  <tr>
+    <td>1935</td>
+    <td>173.96</td>
+    <td>2.24%</td>
+  </tr>
+  <tr>
+    <td>1936</td>
+    <td>177.86</td>
+    <td>1.46%</td>
+  </tr>
+  <tr>
+    <td>1937</td>
+    <td>180.46</td>
+    <td>3.60%</td>
+  </tr>
+  <tr>
+    <td>1938</td>
+    <td>186.96</td>
+    <td>-2.08%</td>
+  </tr>
+  <tr>
+    <td>1939</td>
+    <td>183.07</td>
+    <td>-1.42%</td>
+  </tr>
+  <tr>
+    <td>1940</td>
+    <td>180.47</td>
+    <td>0.72%</td>
+  </tr>
+  <tr>
+    <td>1941</td>
+    <td>181.77</td>
+    <td>5.00%</td>
+  </tr>
+  <tr>
+    <td>1942</td>
+    <td>190.86</td>
+    <td>10.88%</td>
+  </tr>
+  <tr>
+    <td>1943</td>
+    <td>211.63</td>
+    <td>6.13%</td>
+  </tr>
+  <tr>
+    <td>1944</td>
+    <td>224.60</td>
+    <td>1.73%</td>
+  </tr>
+  <tr>
+    <td>1945</td>
+    <td>228.49</td>
+    <td>2.27%</td>
+  </tr>
+  <tr>
+    <td>1946</td>
+    <td>233.68</td>
+    <td>8.33%</td>
+  </tr>
+  <tr>
+    <td>1947</td>
+    <td>253.15</td>
+    <td>14.36%</td>
+  </tr>
+  <tr>
+    <td>1948</td>
+    <td>289.50</td>
+    <td>8.07%</td>
+  </tr>
+  <tr>
+    <td>1949</td>
+    <td>312.86</td>
+    <td>-1.24%</td>
+  </tr>
+  <tr>
+    <td>1950</td>
+    <td>308.98</td>
+    <td>1.26%</td>
+  </tr>
+  <tr>
+    <td>1951</td>
+    <td>312.87</td>
+    <td>7.88%</td>
+  </tr>
+  <tr>
+    <td>1952</td>
+    <td>337.52</td>
+    <td>1.92%</td>
+  </tr>
+  <tr>
+    <td>1953</td>
+    <td>344.00</td>
+    <td>0.75%</td>
+  </tr>
+  <tr>
+    <td>1954</td>
+    <td>346.58</td>
+    <td>0.75%</td>
+  </tr>
+  <tr>
+    <td>1955</td>
+    <td>349.18</td>
+    <td>-0.37%</td>
+  </tr>
+  <tr>
+    <td>1956</td>
+    <td>347.89</td>
+    <td>1.49%</td>
+  </tr>
+  <tr>
+    <td>1957</td>
+    <td>353.07</td>
+    <td>3.31%</td>
+  </tr>
+  <tr>
+    <td>1958</td>
+    <td>364.76</td>
+    <td>2.85%</td>
+  </tr>
+  <tr>
+    <td>1959</td>
+    <td>375.16</td>
+    <td>0.69%</td>
+  </tr>
+  <tr>
+    <td>1960</td>
+    <td>377.75</td>
+    <td>1.72%</td>
+  </tr>
+  <tr>
+    <td>1961</td>
+    <td>384.25</td>
+    <td>1.01%</td>
+  </tr>
+  <tr>
+    <td>1962</td>
+    <td>388.13</td>
+    <td>1.00%</td>
+  </tr>
+  <tr>
+    <td>1963</td>
+    <td>392.01</td>
+    <td>1.32%</td>
+  </tr>
+  <tr>
+    <td>1964</td>
+    <td>397.18</td>
+    <td>1.31%</td>
+  </tr>
+  <tr>
+    <td>1965</td>
+    <td>402.38</td>
+    <td>1.61%</td>
+  </tr>
+  <tr>
+    <td>1966</td>
+    <td>408.86</td>
+    <td>2.86%</td>
+  </tr>
+  <tr>
+    <td>1967</td>
+    <td>420.55</td>
+    <td>3.09%</td>
+  </tr>
+  <tr>
+    <td>1968</td>
+    <td>433.54</td>
+    <td>4.19%</td>
+  </tr>
+  <tr>
+    <td>1969</td>
+    <td>451.71</td>
+    <td>5.46%</td>
+  </tr>
+  <tr>
+    <td>1970</td>
+    <td>476.37</td>
+    <td>5.72%</td>
+  </tr>
+  <tr>
+    <td>1971</td>
+    <td>503.62</td>
+    <td>4.38%</td>
+  </tr>
+  <tr>
+    <td>1972</td>
+    <td>525.68</td>
+    <td>3.21%</td>
+  </tr>
+  <tr>
+    <td>1973</td>
+    <td>542.55</td>
+    <td>6.22%</td>
+  </tr>
+  <tr>
+    <td>1974</td>
+    <td>576.30</td>
+    <td>11.04%</td>
+  </tr>
+  <tr>
+    <td>1975</td>
+    <td>639.92</td>
+    <td>9.13%</td>
+  </tr>
+  <tr>
+    <td>1976</td>
+    <td>698.34</td>
+    <td>5.76%</td>
+  </tr>
+  <tr>
+    <td>1977</td>
+    <td>738.56</td>
+    <td>6.50%</td>
+  </tr>
+  <tr>
+    <td>1978</td>
+    <td>786.57</td>
+    <td>7.59%</td>
+  </tr>
+  <tr>
+    <td>1979</td>
+    <td>846.27</td>
+    <td>11.35%</td>
+  </tr>
+  <tr>
+    <td>1980</td>
+    <td>942.32</td>
+    <td>13.50%</td>
+  </tr>
+  <tr>
+    <td>1981</td>
+    <td>1069.53</td>
+    <td>10.32%</td>
+  </tr>
+  <tr>
+    <td>1982</td>
+    <td>1179.91</td>
+    <td>6.16%</td>
+  </tr>
+  <tr>
+    <td>1983</td>
+    <td>1252.59</td>
+    <td>3.21%</td>
+  </tr>
+  <tr>
+    <td>1984</td>
+    <td>1292.80</td>
+    <td>4.32%</td>
+  </tr>
+  <tr>
+    <td>1985</td>
+    <td>1348.65</td>
+    <td>3.56%</td>
+  </tr>
+  <tr>
+    <td>1986</td>
+    <td>1396.66</td>
+    <td>1.86%</td>
+  </tr>
+  <tr>
+    <td>1987</td>
+    <td>1422.64</td>
+    <td>3.65%</td>
+  </tr>
+  <tr>
+    <td>1988</td>
+    <td>1474.57</td>
+    <td>4.14%</td>
+  </tr>
+  <tr>
+    <td>1989</td>
+    <td>1535.62</td>
+    <td>4.82%</td>
+  </tr>
+  <tr>
+    <td>1990</td>
+    <td>1609.64</td>
+    <td>5.40%</td>
+  </tr>
+  <tr>
+    <td>1991</td>
+    <td>1696.56</td>
+    <td>4.21%</td>
+  </tr>
+  <tr>
+    <td>1992</td>
+    <td>1767.99</td>
+    <td>3.01%</td>
+  </tr>
+  <tr>
+    <td>1993</td>
+    <td>1821.21</td>
+    <td>2.99%</td>
+  </tr>
+  <tr>
+    <td>1994</td>
+    <td>1875.66</td>
+    <td>2.56%</td>
+  </tr>
+  <tr>
+    <td>1995</td>
+    <td>1923.68</td>
+    <td>2.83%</td>
+  </tr>
+  <tr>
+    <td>1996</td>
+    <td>1978.12</td>
+    <td>2.95%</td>
+  </tr>
+  <tr>
+    <td>1997</td>
+    <td>2036.47</td>
+    <td>2.29%</td>
+  </tr>
+  <tr>
+    <td>1998</td>
+    <td>2083.11</td>
+    <td>1.56%</td>
+  </tr>
+  <tr>
+    <td>1999</td>
+    <td>2115.61</td>
+    <td>2.21%</td>
+  </tr>
+  <tr>
+    <td>2000</td>
+    <td>2162.36</td>
+    <td>3.36%</td>
+  </tr>
+  <tr>
+    <td>2001</td>
+    <td>2235.02</td>
+    <td>2.85%</td>
+  </tr>
+  <tr>
+    <td>2002</td>
+    <td>2298.72</td>
+    <td>1.58%</td>
+  </tr>
+  <tr>
+    <td>2003</td>
+    <td>2335.04</td>
+    <td>2.28%</td>
+  </tr>
+  <tr>
+    <td>2004</td>
+    <td>2388.28</td>
+    <td>2.66%</td>
+  </tr>
+  <tr>
+    <td>2005</td>
+    <td>2451.81</td>
+    <td>3.39%</td>
+  </tr>
+  <tr>
+    <td>2006</td>
+    <td>2534.93</td>
+    <td>3.23%</td>
+  </tr>
+  <tr>
+    <td>2007</td>
+    <td>2616.81</td>
+    <td>2.85%</td>
+  </tr>
+  <tr>
+    <td>2008</td>
+    <td>2691.39</td>
+    <td>3.84%</td>
+  </tr>
+  <tr>
+    <td>2009</td>
+    <td>2794.74</td>
+    <td>-0.36%</td>
+  </tr>
+  <tr>
+    <td>2010</td>
+    <td>2784.68</td>
+    <td>1.64%</td>
+  </tr>
+  <tr>
+    <td>2011</td>
+    <td>2830.35</td>
+    <td>3.16%</td>
+  </tr>
+  <tr>
+    <td>2012</td>
+    <td>2919.79</td>
+    <td>2.07%</td>
+  </tr>
+  <tr>
+    <td>2013</td>
+    <td>2980.23</td>
+    <td>1.46%</td>
+  </tr>
+  <tr>
+    <td>2014</td>
+    <td>3023.74</td>
+    <td>1.62%</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>3072.72</td>
+    <td>0.12%</td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>3076.41</td>
+    <td>1.26%</td>
+  </tr>
+  <tr>
+    <td>2017</td>
+    <td>3115.17</td>
+    <td>2.13%</td>
+  </tr>
+  <tr>
+    <td>2018</td>
+    <td>3181.52</td>
+    <td>2.44%</td>
+  </tr>
+  <tr>
+    <td>2019</td>
+    <td>3259.15</td>
+    <td>1.23%*</td>
+  </tr>
+</table>
+
+
+<script type="text/javascript">
+  function myFunction() {
+    //location.reload();
+    var startdate = document.getElementById("y1").value;
+    var startmoney = document.getElementById("amount").value;
+    var enddate = document.getElementById("y2").value;
+    var element = document.getElementById("h1");
+
+    // Find a <table> element with id="myTable":
+    var mytable = document.getElementById("myTable");
+    var stringinterest = 0;
+    var numinterest = 0;
+    var incrementmoney = startmoney;
+    var i;
+
+    if (startdate < 1850 || enddate > 2019 || startmoney < 0 || startdate > enddate) {
+      document.getElementById("warningbox").innerHTML = "Sorry, we didn't understand all of your query. Please check that you put in valid dates and dollar amounts. Our consumer price index data goes back to 1850."
+    } 
+      else {
+        document.getElementById("warningbox").innerHTML = ""
+        //document.getElementById("myTable").rows[st].cells[1].innerHTML = incrementmoney
+
+
+        for (i = 1850; i < 2020; i++) { 
+
+          if (i < startdate) {
+            document.getElementById("myTable").rows[i-1849].cells[1].innerHTML = "N/A"
+          }
+          else if (i == startdate) {
+            document.getElementById("myTable").rows[i-1849].cells[1].innerHTML = startmoney
+          }
+          else if (i > startdate & i <= enddate) {
+            stringinterest = mytable.rows[i-1849].cells[2].innerHTML;
+            numinterest = parseFloat(stringinterest);
+            incrementmoney = incrementmoney * (100+numinterest)/100;
+            incrementmoney = incrementmoney.toFixed(2);
+            document.getElementById("myTable").rows[i-1849].cells[1].innerHTML = incrementmoney
+          }
+          else if (i > enddate) {
+            document.getElementById("myTable").rows[i-1849].cells[1].innerHTML = "N/A"
+          }
+          else {
+            document.getElementById("warningbox").innerHTML = "Sorry, we didn't understand all of your query. Please check that you put in valid dates and dollar amounts. Our consumer price index data goes back to 1850."
+          }
+        }
+      }
+
+    // Create an empty <tr> element and add it to the 1st position of the table:
+    //var row = table.insertRow(0);
+
+    // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
+    //var cell1 = row.insertCell(0);
+    //var cell2 = row.insertCell(1);
+
+    // Add some text to the new cells:
+    //cell1.innerHTML = "NEW CELL1";
+    //cell2.innerHTML = "NEW CELL2";
+
+    element.innerHTML = "$" + startmoney + " in " + startdate + " &rarr; $" + incrementmoney + " in " + enddate;
+    //element.innerHTML = "Hi there!";  
+    }
+
+</script>
+
+</html>
